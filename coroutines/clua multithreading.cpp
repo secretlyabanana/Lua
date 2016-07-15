@@ -4,8 +4,8 @@ static int Delay(lua_State *L) {
 };
 
 int main() {
-  lua_State *L = luaL_newstate();
-  lua_register(L, "Delay", Delay);
-  
-  return 0;
+	lua_State *L = luaL_newstate();
+	lua_register(L, "Delay", Delay);
 };
+
+//by secret6timb1
