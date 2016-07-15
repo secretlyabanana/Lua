@@ -1,6 +1,6 @@
 --[[
 	Made by secret6timb1, Full-lua representation of multithreading using coroutines.
-	Takes up a full core, for a select fps that doesn't take full core see 'multithreading fps'.
+	Takes up a full core, for a select fps that doesn't take full core see 'clua multithreading'.
 ]]--
 
 SimulateTasks = function(routines)
